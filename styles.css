@@ -23,7 +23,7 @@ a {
     width: 375px;
     height: 522px;
     padding: 24px;
-    text-align: center;
+    text-align: left;
     background-color: hsl(0, 0%, 100%);
     margin-bottom: 10px;;
 }
@@ -32,9 +32,6 @@ a {
     border-radius: 12px;
     width: 100%;
     max-height: 200px;
-}
-.card-text{
-    text-align: left;
 }
 
 .learning {
@@ -63,6 +60,7 @@ p {
     color: hsl(0, 0%, 42%);
 }
 .author {
+    padding-top: 1.2rem;
     display: flex;
     gap: .75rem;
     align-items: center;
@@ -70,5 +68,5 @@ p {
 }
 
 .author-image {
-    max-width: 32px;
+    max-width: 36px;
 }
