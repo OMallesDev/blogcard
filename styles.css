@@ -12,22 +12,22 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 a {
     text-decoration: none;
 }
 
 .card {
-    position: relative;
     box-shadow: 10px 10px black;
     font-weight: 500;
     border-radius: 1.2rem;
-    width: 375px;
+    max-width: 327px;
     height: 522px;
     padding: 24px;
     text-align: left;
     background-color: hsl(0, 0%, 100%);
-    margin: 0 auto;
+    margin: 1rem auto;
 }
 .cardimage {
     margin-bottom: 1.2rem;
@@ -73,7 +73,7 @@ p {
     max-width: 36px;
 }
 
-@media only screen and (min-width="600px") {
+@media screen {
     body {
         font-size: 1rem;
         overflow-x: hidden;
