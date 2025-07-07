@@ -3,6 +3,7 @@
 }
 
 body {
+    position: relative;
     overflow: hidden;
     font-family: Figtree, sans-serif;
     width: 100vw;
