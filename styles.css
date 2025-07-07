@@ -23,8 +23,8 @@ a {
     box-shadow: 0.62rem 0.62rem black;
     font-weight: 500;
     border-radius: 1.2rem;
-    max-width: 327px;
-    max-height: 480px;
+    max-width: 21rem;
+    height: 32rem;
     padding: 1.5rem;
     text-align: left;
     background-color: hsl(0, 0%, 100%);
@@ -41,11 +41,11 @@ a {
     font-weight: 800;
     background-color: hsl(47, 88%, 63%);
     padding: .5rem 1rem;
-    border-radius: 5px;
+    border-radius: 0.32rem;
 
 }
 .published {
-    font-size: 14px;
+    font-size: 0.88rem;
     color: hsl(0, 0%, 7%);
 }
 h1 {
@@ -69,7 +69,7 @@ p {
 }
 
 .author-image {
-    max-width: 36px;
+    max-width: 2.25rem;
 }
 
 @media screen and (width <= 600px) {
