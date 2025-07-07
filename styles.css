@@ -20,19 +20,19 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    box-shadow: 10px 10px black;
+    box-shadow: 0.62rem 0.62rem black;
     font-weight: 500;
     border-radius: 1.2rem;
     max-width: 327px;
-    height: 480px;
-    padding: 24px;
+    max-height: 480px;
+    padding: 1.5rem;
     text-align: left;
     background-color: hsl(0, 0%, 100%);
     margin: 1rem auto;
 }
 .cardimage {
     margin-bottom: 1.2rem;
-    border-radius: 12px;
+    border-radius: 0.75rem;
     width: 100%;
 }
 
