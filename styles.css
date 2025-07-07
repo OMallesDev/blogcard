@@ -54,7 +54,7 @@ h1 {
     font-weight: 800;
 }
 
-h1:hover {
+h1:hover, h1:active {
     color: hsl(47, 88%, 63%);
     cursor: pointer;
 }
@@ -71,4 +71,12 @@ p {
 
 .author-image {
     max-width: 36px;
+}
+
+@media only screen and (min-width="600px") {
+    body {
+        font-size: 1rem;
+        overflow-x: hidden;
+    
+    }    
 }
