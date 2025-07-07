@@ -26,7 +26,7 @@ a {
     padding: 24px;
     text-align: left;
     background-color: hsl(0, 0%, 100%);
-    margin-bottom: 10px;;
+    margin: 0 auto;
 }
 .cardimage {
     margin-bottom: 1.2rem;
